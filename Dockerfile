@@ -7,7 +7,7 @@ FROM jlesage/baseimage-gui:alpine-3.18-v4.5.2
 
 
 RUN add-pkg chromium
-#RUN add-pkg file-roller
+RUN add-pkg file-roller
 
 #RUN apt-get update
 #RUN apt-get install chromium -y
