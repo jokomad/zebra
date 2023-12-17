@@ -23,9 +23,9 @@ RUN chmod +x /startapp.sh
 #RUN mkdir /config/1
 #RUN cd /config && tar -xf /config/1.tar.gz 
 
+EXPOSE 5800
 
 
-
-ENV DISPLAY_WIDTH=1024
-ENV DISPLAY_HEIGHT=768
+#ENV DISPLAY_WIDTH=1024
+#ENV DISPLAY_HEIGHT=768
 
